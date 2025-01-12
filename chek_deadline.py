@@ -1,5 +1,4 @@
 from datetime import datetime, timedelta
-date_format = "%d-%m-%Y"
 
 current_date = datetime.now().date().strftime("%d-%m-%Y")
 print('Текущая дата: ', current_date)
